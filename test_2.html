@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Wallbit Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+
+        function soloNumerosPositivos(array) {
+            return array.filter(val => val > 0);
+        }
+
+        function eliminarDuplicados(array) {
+            const singleValues = new Set(array);
+
+            return new Array(...singleValues);
+        }
+
+		function ordenarArrayPorValor(array) {
+			return array.sort((a, b) => a-b);
+		}
+
+        /* ESTE ES EL TEST, NO TOCAR */
+
+        let dataTestPositivos = [1, -4, -10, 5939, -110231, 0, 302, 233]
+        console.log('Data Test Solo Positivos', dataTestPositivos)
+        console.log('Resultado', soloNumerosPositivos(dataTestPositivos))
+
+        let dataTestDuplicados = [1, -5, -5, 223, 1, -55, 3231, 42333, 0, 10, 1, -5, 43332]
+        console.log('Data Test Sin Duplicados', dataTestDuplicados)
+        console.log('Resultado', eliminarDuplicados(dataTestDuplicados))
+
+		let dataTestOrdenarArray = [50, 2, 1, 10, 110, 402, 59, -2]
+		console.log('Data Test Ordenar Array', dataTestOrdenarArray)
+		console.log('Resultado', ordenarArrayPorValor(dataTestOrdenarArray))
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

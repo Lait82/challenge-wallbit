@@ -1,0 +1,18 @@
+Wallbit challenge:
+1. Crear un formulario HTML con un INPUT TEXT y un botón que diga GUARDAR. Debe cumplir con las siguientes funcionalidades.
+Al presionar el botón debe mostrar un ALERT que muestre el siguiente texto: "Palabra ingresada: XXX".
+El siguiente alert tiene que mostrar la longitud de la palabra: "La palabra tiene X caracteres"
+El siguiente alert tiene que mostrar la palabra invertida: "Palabra invertida: XXX"
+El siguiente alert tiene que mostrar: "Primera letra: X"
+El siguiente alert tiene que mostrar: "Ultima letra: X"
+Despues de mostrar todo eso hay que resetear el input, osea volver a dejarlo vacio.
+
+Bonus:
+Estilos para el formulario
+
+
+2. Completar las siguientes funciones:
+function soloNumerosPositivos(array) {}
+function eliminarDuplicados(array) {}
+Bonus:
+function ordenarArrayPorValor(array) {}
